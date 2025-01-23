@@ -10,6 +10,13 @@
 .inner{
     border: 2px solid brown;
     background: beige;
-    transform: scale(0.5) rotate(45deg);
+    /* transform: scale(0.5); */
+    transition: transform 1s ease-in,background-color 2s ease-in-out;
     /* display: none; */
+}
+.inner:hover{
+    /* width: 400px; */
+    /* background: maroon; */
+    transform: scale(0.5) rotate(45deg);
+    background-color: slateblue;
 }
