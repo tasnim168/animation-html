@@ -1,7 +1,34 @@
-body{
+/* body{
     width: 1200px;
-    width: 700px;
-    background-color: aliceblue;
+    height: 700px;
+    background-color: ghostwhite;
     border: 3px solid salmon;
     border-radius: 10px;
+} */
+/* .header{
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    border: 3px solid maroon ;
+} */
+.ball{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: green;
+    transform: scale(0.5) rotate(45deg) translate(100px);
+    transition: width 5s linear 3s;
+}
+.ball:hover{
+    transition: width ;
+}
+.box{
+    border: 3px solid steelblue;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 300px;
+    /* gap: 10px; */
+}
+#box-1{
+    overflow: hidden;
 }
