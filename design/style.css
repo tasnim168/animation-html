@@ -1,0 +1,15 @@
+.container,.inner{
+    width: 200px;
+    height: 200px;
+}
+.container{
+    border: 2px solid steelblue;
+    background: aqua;
+    /* display: none; */
+}
+.inner{
+    border: 2px solid brown;
+    background: beige;
+    transform: scale(0.5) rotate(45deg);
+    /* display: none; */
+}
